@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'GyeonggiTitleL';
+    src: url("font/woff/Title_Light.woff");
+    /* 가는글씨체 웹폰트주소 지정*/
+    font-weight: light;
+}
+
+@font-face {
+    font-family: 'GyeonggiTitleM';
+    src: url("font/woff/Title_Medium.woff");
+    /* 가는글씨체 웹폰트주소 지정*/
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'GyeonggiTitleB';
+    src: url("font/woff/Title_Bold.woff");
+    /* 가는글씨체 웹폰트주소 지정*/
+    font-weight: bold;
+}
+
+.font-GyenggiM {
+    font-family: 'GyeonggiTitleM'!important;
+}
+
+.font-GyenggiL {
+    font-family: 'GyeonggiTitleL'!important;
+}
+
+.font-GyenggiB {
+    font-family: 'GyeonggiTitleB'!important;
+}
+
+.card-hover mx-1 {
+    width: 627px;
+    height: 800px;
+}
+
+.offcanvas offcanvas-end offcanvas-collapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.fixed_R {
+    /* display: flex; */
+    /* position: fixed; */
+    /* float: left; */
+    /* float: right; */
+    /* right: 0; */
+    background-color: #f6ebe6;
+    /* padding-bottom: 100px; */
+}
+
+.fixed_m {
+    position: fixed;
+    right: 0;
+    background-color: #f6ebe6;
+    height: 100px;
+    max-height: 200px;
+    width: 100px;
+}
+
+#b_sidebar.on {
+    position: absolute;
+    bottom: 1000px;
+}
+
+
+
+.sidebar-enabled sidebar-end {
+    background-color: #f6ebe6;
+}
+
+.bk_color {
+    background-color: #f6ebe6;
+}
+
+.my02_bnt {
+    float: right;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.boxsize {
+    padding: 24px 40px 48px 15px;
+    height: 839.112px !important;
+    width: 759.800px !important;
+}
+
+.name_color {
+    color: #f44125;
+    font-size: 15px;
+    margin: 0px;
+}
+
+* {
+    color: #25233d;
+}
+
+.my04_color {
+    background-color: #f6ebe6;
+}
+
+.my04_form_check {
+    background-color: #f6ebe6;
+    border: none;
+}
+
+.my_name {
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+
+.my03_item {
+    width: 220px;
+    height: 380px;
+}
+
+.save_btn {
+    float: right;
+}
+
+.name_size {
+    font-size: 14px;
+}
+
+.name_size_s {
+    font-size: 12px;
+    color: rgb(171, 171, 171);
+}
+
+.centerbox {
+    display: table-cell !important;
+    margin: auto !important;
+    text-align: center !important;
+}
+
+.__pading-tb-2 {
+    background-color: #fff;
+}
+
+.footer {
+    height: 150px;
+    /* position: relative; */
+    transform: translateY(-100%);
+    position: fixed;
+    bottom: 0
+}
+
+.card-hover01 {
+    height: 330px !important;
+}
+
+.card_img {
+    height: 180px !important;
+    width: 279px !important;
+}

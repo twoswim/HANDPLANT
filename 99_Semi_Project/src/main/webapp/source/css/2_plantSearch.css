@@ -1,0 +1,41 @@
+body {
+    background-color: #f6f6f6 !important;
+}
+
+img {
+    width: 50px;
+}
+
+h1 {
+    font-family: 'GyeonggiTitleB';
+    color: #25233d !important;
+}
+
+h4 {
+    font-family: 'GyeonggiTitleB';
+    color: #25233d !important;
+}
+
+.btn {
+    color: white !important;
+    background-color: #d0d0d0!important;
+    border-color: transparent!important;
+}
+
+.input {
+    width: 50%;
+    margin-bottom: 2%;
+}
+
+.filter-icon {
+    margin-bottom: 1%;
+}
+
+.card-body {
+    padding-bottom: 1% !important;
+}
+
+.card-footer {
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+}
