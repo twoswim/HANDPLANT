@@ -147,8 +147,6 @@ public class PlantOpenApi {
 	// 상세검색(식물번호)
 	public static PlantInfo detailInfo(int no) {
 		PlantInfo info = new PlantInfo();
-		
-		
 		int index = no;
 
 		try {
@@ -196,7 +194,6 @@ public class PlantOpenApi {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-//		System.out.println(info);
 		return info;
 	}
 	
